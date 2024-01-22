@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h2Div{
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    background-color: #444645;
+    padding-top: 1rem;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#e2e2e0;
+}
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 45vh;
+
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select, input, button{
+    border-radius: 0.75rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+form input{
+    padding-left: 0.5rem;
+    border: 1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+
+}
+.dropdown{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-container img{
+    max-width: 2rem;
+}
+.dropdown i{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.select-container{
+    width: 6rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-container select{
+    font-size: 0.75rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+form button{
+    background-color: #444645;
+    color: #fff;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.5s, transform 0.4s;
+}
+button.click-effect:active {
+    background-color: lightgray;
+    transform: scale(0.95);
+  }
